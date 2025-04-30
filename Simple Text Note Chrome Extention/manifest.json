@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Text Saver",
+  "version": "1.0",
+  "description": "Save texts to local storage",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage"]
+}
