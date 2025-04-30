@@ -1,10 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "Simple Text Saver",
-  "version": "1.0",
-  "description": "Save texts to local storage",
+  "name": "Text Saver",
+  "version": "1.1",
+  "description": "Save and manage multi-line text notes.",
+  "permissions": ["storage"],
   "action": {
-    "default_popup": "index.html"
-  },
-  "permissions": ["storage"]
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
 }
