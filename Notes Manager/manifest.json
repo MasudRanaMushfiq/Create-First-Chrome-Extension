@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Notes Manager",
+  "version": "1.0",
+  "description": "Take, save, prioritize, and manage notes in your browser.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "48": "icon.png"
+  }
+}
